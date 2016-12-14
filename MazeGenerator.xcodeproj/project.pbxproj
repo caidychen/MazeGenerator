@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68B4F8D1DF7AC6300174650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4F8C1DF7AC6300174650 /* main.m */; };
+		C68B4F901DF7AC6300174650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4F8F1DF7AC6300174650 /* AppDelegate.m */; };
+		C68B4F931DF7AC6300174650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4F921DF7AC6300174650 /* ViewController.m */; };
+		C68B4F961DF7AC6300174650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68B4F941DF7AC6300174650 /* Main.storyboard */; };
+		C68B4F981DF7AC6300174650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68B4F971DF7AC6300174650 /* Assets.xcassets */; };
+		C68B4F9B1DF7AC6300174650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68B4F991DF7AC6300174650 /* LaunchScreen.storyboard */; };
+		C68B4FA41DF7AC8400174650 /* MazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4FA31DF7AC8400174650 /* MazeViewController.m */; };
+		C68B4FA71DF7ACB600174650 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4FA61DF7ACB600174650 /* Canvas.m */; };
+		C68B4FAA1DF7AD1300174650 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4FA91DF7AD1300174650 /* Cell.m */; };
+		C68B4FAD1DF7CD4400174650 /* NSObject+SOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4FAC1DF7CD4400174650 /* NSObject+SOObject.m */; };
+		C68B4FB01DF7E28B00174650 /* MJGStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B4FAF1DF7E28B00174650 /* MJGStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C68B4F881DF7AC6300174650 /* MazeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68B4F8C1DF7AC6300174650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68B4F8E1DF7AC6300174650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C68B4F8F1DF7AC6300174650 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C68B4F911DF7AC6300174650 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C68B4F921DF7AC6300174650 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C68B4F951DF7AC6300174650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68B4F971DF7AC6300174650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68B4F9A1DF7AC6300174650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68B4F9C1DF7AC6300174650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68B4FA21DF7AC8400174650 /* MazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeViewController.h; sourceTree = "<group>"; };
+		C68B4FA31DF7AC8400174650 /* MazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeViewController.m; sourceTree = "<group>"; };
+		C68B4FA51DF7ACB600174650 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		C68B4FA61DF7ACB600174650 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		C68B4FA81DF7AD1300174650 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		C68B4FA91DF7AD1300174650 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		C68B4FAB1DF7CD4400174650 /* NSObject+SOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SOObject.h"; sourceTree = "<group>"; };
+		C68B4FAC1DF7CD4400174650 /* NSObject+SOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SOObject.m"; sourceTree = "<group>"; };
+		C68B4FAE1DF7E28B00174650 /* MJGStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGStack.h; sourceTree = "<group>"; };
+		C68B4FAF1DF7E28B00174650 /* MJGStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68B4F851DF7AC6300174650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68B4F7F1DF7AC6300174650 = {
+			isa = PBXGroup;
+			children = (
+				C68B4F8A1DF7AC6300174650 /* MazeGenerator */,
+				C68B4F891DF7AC6300174650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68B4F891DF7AC6300174650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68B4F881DF7AC6300174650 /* MazeGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68B4F8A1DF7AC6300174650 /* MazeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C68B4F8E1DF7AC6300174650 /* AppDelegate.h */,
+				C68B4F8F1DF7AC6300174650 /* AppDelegate.m */,
+				C68B4F911DF7AC6300174650 /* ViewController.h */,
+				C68B4F921DF7AC6300174650 /* ViewController.m */,
+				C68B4FA21DF7AC8400174650 /* MazeViewController.h */,
+				C68B4FA31DF7AC8400174650 /* MazeViewController.m */,
+				C68B4FA51DF7ACB600174650 /* Canvas.h */,
+				C68B4FA61DF7ACB600174650 /* Canvas.m */,
+				C68B4FA81DF7AD1300174650 /* Cell.h */,
+				C68B4FA91DF7AD1300174650 /* Cell.m */,
+				C68B4FAB1DF7CD4400174650 /* NSObject+SOObject.h */,
+				C68B4FAC1DF7CD4400174650 /* NSObject+SOObject.m */,
+				C68B4FAE1DF7E28B00174650 /* MJGStack.h */,
+				C68B4FAF1DF7E28B00174650 /* MJGStack.m */,
+				C68B4F941DF7AC6300174650 /* Main.storyboard */,
+				C68B4F971DF7AC6300174650 /* Assets.xcassets */,
+				C68B4F991DF7AC6300174650 /* LaunchScreen.storyboard */,
+				C68B4F9C1DF7AC6300174650 /* Info.plist */,
+				C68B4F8B1DF7AC6300174650 /* Supporting Files */,
+			);
+			path = MazeGenerator;
+			sourceTree = "<group>";
+		};
+		C68B4F8B1DF7AC6300174650 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68B4F8C1DF7AC6300174650 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68B4F871DF7AC6300174650 /* MazeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68B4F9F1DF7AC6300174650 /* Build configuration list for PBXNativeTarget "MazeGenerator" */;
+			buildPhases = (
+				C68B4F841DF7AC6300174650 /* Sources */,
+				C68B4F851DF7AC6300174650 /* Frameworks */,
+				C68B4F861DF7AC6300174650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MazeGenerator;
+			productName = MazeGenerator;
+			productReference = C68B4F881DF7AC6300174650 /* MazeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68B4F801DF7AC6300174650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Putao;
+				TargetAttributes = {
+					C68B4F871DF7AC6300174650 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W395RC57B2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C68B4F831DF7AC6300174650 /* Build configuration list for PBXProject "MazeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68B4F7F1DF7AC6300174650;
+			productRefGroup = C68B4F891DF7AC6300174650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68B4F871DF7AC6300174650 /* MazeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68B4F861DF7AC6300174650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68B4F9B1DF7AC6300174650 /* LaunchScreen.storyboard in Resources */,
+				C68B4F981DF7AC6300174650 /* Assets.xcassets in Resources */,
+				C68B4F961DF7AC6300174650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68B4F841DF7AC6300174650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68B4F931DF7AC6300174650 /* ViewController.m in Sources */,
+				C68B4FB01DF7E28B00174650 /* MJGStack.m in Sources */,
+				C68B4F901DF7AC6300174650 /* AppDelegate.m in Sources */,
+				C68B4F8D1DF7AC6300174650 /* main.m in Sources */,
+				C68B4FA71DF7ACB600174650 /* Canvas.m in Sources */,
+				C68B4FA41DF7AC8400174650 /* MazeViewController.m in Sources */,
+				C68B4FAD1DF7CD4400174650 /* NSObject+SOObject.m in Sources */,
+				C68B4FAA1DF7AD1300174650 /* Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68B4F941DF7AC6300174650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68B4F951DF7AC6300174650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68B4F991DF7AC6300174650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68B4F9A1DF7AC6300174650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68B4F9D1DF7AC6300174650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C68B4F9E1DF7AC6300174650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68B4FA01DF7AC6300174650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W395RC57B2;
+				INFOPLIST_FILE = MazeGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kids.putao.cn.MazeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C68B4FA11DF7AC6300174650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W395RC57B2;
+				INFOPLIST_FILE = MazeGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kids.putao.cn.MazeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68B4F831DF7AC6300174650 /* Build configuration list for PBXProject "MazeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68B4F9D1DF7AC6300174650 /* Debug */,
+				C68B4F9E1DF7AC6300174650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68B4F9F1DF7AC6300174650 /* Build configuration list for PBXNativeTarget "MazeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68B4FA01DF7AC6300174650 /* Debug */,
+				C68B4FA11DF7AC6300174650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68B4F801DF7AC6300174650 /* Project object */;
+}
